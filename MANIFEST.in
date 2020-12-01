@@ -19,6 +19,7 @@ include config
 include docs/requirements.txt
 include pytest.ini
 recursive-include docs *.bat
+recursive-include .github/workflows/*.yml
 recursive-include docs *.png
 recursive-include docs *.py
 recursive-include docs *.rst
